@@ -1,4 +1,0 @@
-As 3 formas de inserção do CSS no HTML
-1- CSS Inline  : Diretamente no código
-2- CSS Interno : Sempre dentro da TAG Head, entre a TAG <style>
-3- CSS Externo : Em um novo arquivo tipo .css fica todos os parametros

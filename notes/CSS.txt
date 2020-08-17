@@ -1,0 +1,38 @@
+## As 3 formas de inserção do CSS no HTML
+1- CSS Inline  : Diretamente no código
+2- CSS Interno : Sempre dentro da TAG Head, entre a TAG <style>
+3- CSS Externo : Em um novo arquivo tipo .css fica todos os parametros
+
+## Métodos de chamadas via CSS
+nome_elemento {
+
+}
+
+#id_elemento {
+
+}
+
+.classe_do_elemento {
+
+}
+
+elemento, outroelemento {
+
+}
+
+elemento outroelemento {
+    
+}
+
+## Combinação de cores em hexadecimal
+São 6 caracteres, definidos desta forma:
+Os 2 inicias = Vermelho = 0-9 / A-F
+Os 2 centrais = Verde = 0-9 / A-F
+Os 2 finais = Azul = 0-9 / A-F
+
+## Propriedades dos elementos
+São quatro:
+1- Conteúdo
+2- Padding - espaçamento interno do elemento
+3- Borda
+4- Margin - espaçamento externo do elemento
