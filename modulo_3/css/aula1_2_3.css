@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.titulo {
+  font-family: 'Bangers', cursive; 
+}
+
+p {
+    color: blue;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: justify;
+    word-spacing: 5px;
+    line-height: 25px;
+    font-family: 'Indie Flower', cursive;
+}
+
+#p1 {
+    color: brown;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+#p2 {
+    color: grey;
+    font-size: 15px;
+    font-weight: normal;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 3px yellow;
+}
+
+a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}

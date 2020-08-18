@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+}
+
+caption {
+    font-family: 'Chilanka', cursive;
+}
+
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+
+table {
+    width: 600px;
+    border: 1px solid black;
+}
+
+td, th {
+    border: 1px solid black;
+    font-family: 'Indie Flower', cursive;
+    text-align: left;
+    padding: 10px;
+}
+
+table thead {
+    background-color: royalblue;
+}
+
+table tbody {
+    background-color: skyblue;
+}
+
+tbody tr:hover {
+    background-color: saddlebrown;
+}
+
+tbody td {
+    border-bottom: 1px solid yellow;
+}
+
+#tabela2 {
+    width: 400px;
+    border: none;
+}
+
+#tabela2 td, th {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding: 10px;
+    border: none;
+}
+
+#tabela2 tbody {
+    background-color: whitesmoke;
+}
+
+#tabela2 tbody td {
+    border-bottom: 1px solid grey;
+}
+
+#tabela2 tbody tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+#tabela2 tbody tr:hover {
+    background-color: lightblue;
+}

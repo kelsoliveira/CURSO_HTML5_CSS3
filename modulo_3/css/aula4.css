@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Chilanka', cursive;
+}
+
+body {
+    margin: 0px;
+}
+
+li {
+    font-family: sans-serif;
+}
