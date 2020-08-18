@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.link {
+    color: green;
+    font-size: 20px;
+}
+
+.link:hover { /* Estado especifico do elemento, estilo exclusivo quando o elemento estiver ativo ou acionado */
+    color: red;
+}
+
+.link:visited { /* Quando o acesso já foi realizado */
+    color: rosybrown;
+}
