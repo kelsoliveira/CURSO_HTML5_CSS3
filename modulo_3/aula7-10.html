@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Aula 7 - Formulários / Inputs
+    </title>
+    <link rel="stylesheet" href="css\aula7-10.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Bangers&family=Indie+Flower&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>
+        Formulários HTML
+    </h1>
+
+    <h2>Cadastro Teste</h2>
+    <form action="formularios/cadastro.html">
+        <label>
+            Nome: <br>
+            <input type="text" name="nome">
+        </label>
+
+        <label class="sobrenome">
+            Sobrenome: <br>
+            <input type="text" name="sobrenome">
+        </label>
+
+        <label>
+            Descrição: <br>
+            <textarea name="descricao"></textarea>
+        </label>
+
+        <label>
+            Categoria: <br>
+            <select name="categoria">
+                <option value="1">Categoria 1</option>
+                <option value="2">Categoria 2</option>
+                <option value="3">Categoria 3</option>
+                <option value="4">Categoria 4</option>
+                <option value="5">Categoria 5</option>
+            </select>
+        </label>
+
+        <label>
+            <input type="checkbox" name="teste">
+            Eu declaro que li e aceito os <a href="formularios/termos.html" targer="_blank" class="termoslink"> termos de uso</a>.
+        </label>
+
+        <button>Fazer cadastro</button>
+    </form>
+    <br>
+    <hr>
+
+    <!--
+    <h2>Área de cadastro 3</h2>
+    <form action="formularios/cadastro.html" method="GET">
+
+        <textarea name="descricao" id=""></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+    <hr>
+    <h2>Área de cadastro</h2>
+    <form action="formularios/cadastro.html" method="GET">
+        <input type="color" name="" id=""><br><br>
+        <input type="date" name="" id=""><br><br>
+        <input type="datetime-local" name="" id=""><br><br>
+        <input type="number" name="" id=""><br><br>
+        <input type="range" name="range" id=""><br><br>
+        <input type="tel" name="" id=""><br><br>
+        <input type="time" name="" id=""><br><br>
+        <input type="week" name="" id=""><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+    <hr>
+
+    <h2>Área de login</h2>
+    <form action="formularios/login.html" method="POST">
+        <input type="text" name="usuario"><br><br>
+        <input type="password"><br><br>
+        <input type="checkbox" name="" id=""><br><br>
+        <input type="radio" name="sexo" id="">
+        <input type="radio" name="sexo" id=""><br><br>
+        <input type="email" name="" id=""><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+    <hr>
+
+    <h2>Área de cadastro 2</h2>
+    <form action="formularios/cadastro.html" method="GET">
+        <select name="ordenacao" size="2" multiple>
+            <option value="tops">Mais Vendidos</option>
+            <option value="ultimos" selected>Recentes</option>
+        </select>
+
+        <input type="submit" value="Enviar">
+    </form>
+    -->
+</body>
+
+</html>

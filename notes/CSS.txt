@@ -36,3 +36,6 @@ São quatro:
 2- Padding - espaçamento interno do elemento
 3- Borda
 4- Margin - espaçamento externo do elemento
+
+## Pesquisar sobre motores de busca que atuam dentro dos sites/códigos
+Existem TAGS, aula 3 e 4 do modulo 4, que auxiliam o motor de buscar a fazer a indexação.
