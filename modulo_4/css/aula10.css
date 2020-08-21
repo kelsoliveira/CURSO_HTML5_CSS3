@@ -1,0 +1,21 @@
+* {
+   box-sizing: border-box; 
+}
+
+body {
+    margin: 10px;
+}
+
+.media {
+    border: 1px solid black;
+    background-color: green;
+    width: 600px;
+    height: 300px;
+}
+
+@media only screen and (max-width:500px) {
+    .media {
+        background-color: red;
+        width: 200px;
+    }
+}
