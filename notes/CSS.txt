@@ -39,3 +39,11 @@ São quatro:
 
 ## Pesquisar sobre motores de busca que atuam dentro dos sites/códigos
 Existem TAGS, aula 3 e 4 do modulo 4, que auxiliam o motor de buscar a fazer a indexação.
+
+##Máquinas de Renderização
+IE = Trident
+Edge = EdgeHTML
+Firefox = Gecko
+Opera = Webkit
+Safari = Webkit
+Chrome = Webkit

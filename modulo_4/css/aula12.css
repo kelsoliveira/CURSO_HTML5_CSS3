@@ -3,7 +3,15 @@
 }
 
 body {
-    margin: 10px;
+    margin: 0px;
+}
+
+p {
+    padding: 10px;
+}
+
+h2 {
+    padding-left: 10px;
 }
 
 .topo {
@@ -13,6 +21,11 @@ body {
     background-color: orange;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+.d1 {
+    width: 25%;
+    float: left; /*alinha os elementos um do lado do outro*/
 }
 
 /*header {
@@ -37,22 +50,14 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }*/
 
-.d1 {
-    width: 25%;
-    padding: 10px; /*margens do elemento*/
-    float: left; /*alinha os elementos um do lado do outro*/
-}
-
-p {
-    padding: 10px;
-}
-
-h2 {
-    padding-left: 10px;
-}
-
 @media only screen and (min-width:500px) and (max-width:800px) {
-    div {
+    .d1 {
         width: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .d1 {
+        width: 100%
     }
 }
