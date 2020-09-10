@@ -12,3 +12,25 @@
     <footer></footer>
 </body>
 </html>
+
+
+ <!-- <table>
+                                <tr>
+                                    <th scope="row">
+                                        <img src="assets/img/telefone.JPG" alt="">
+                                        by phone: <a href="tel:+18006434300">(800) 643-4300</a>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <img src="assets/img/email.JPG" alt="">
+                                        by e-mail: <a href="mailto:medicenter@gmail.com">medicenter@gmail.com</a>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <img src="assets/img/formulario.JPG" alt="">
+                                        or <a href="">fill in the form</a> on our contact page
+                                    </th>
+                                </tr>
+                            </table> -->
